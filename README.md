@@ -22,16 +22,24 @@ Uses a standard $HOME/$USER/public_html directory setup but can be edited for an
 
 <h1>Optional</h1>
 - Runs a apt-get update/upgrade if applicable
+
 - Optional install latest mainline Nginx (recommended)
+
 - Optional update to latest Linux Kernel (recommended)
+
 - Optional PHP5 install w/dependencies
+
 - Optional php.ini secured (recommended)
+
 - Optional Generates 2048 Diffie-Hellman for TLS (recommended)(OpenSSL required)
 
 <h1>Functions</h1>
 - Setup/Create Nginx directory structure, sites available/enabled/domain.vhost conf
+
 - Updates cgi.fix_pathinfo=0 in fpm and cli php.ini
+
 - Setup/Create php-fpm directory structure, domain.conf
+
 - Setup/Create user/pass with domain/IP and public_html directory structure
 
 - Sets all proper permissions on relevant directories.

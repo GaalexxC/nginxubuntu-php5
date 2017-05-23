@@ -98,6 +98,8 @@ NGINX_MAINLINE='http://nginx.org/packages/mainline/ubuntu/'
 
 6. Just follow the prompts
 
+7. Edit domain.vhost accordingly. The vhost is updated with the latest security features for SSL if using a cert you must uncomment and make sure paths are correct. The script sets up the standard path $HOME/$USER/ssl to cert/key/trusted_chain.pem but of course you must supply the files. root/logs/php-fpm. etc are setup for you and can be edited accordingly.
+
 ## License
 
 Apache License 2.0

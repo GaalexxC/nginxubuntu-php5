@@ -70,15 +70,17 @@ See [/src/auto_create_web.sh](https://github.com/GaryCornell/nginxubuntu-php5/bl
 
 2. wget https://github.com/GaryCornell/nginxubuntu-php5/raw/master/nginxubuntu_v202.tar.gz
 
-3. cd nginxubuntu
+3. tar -xvzf nginxubuntu_v202.tar.gz
 
-4. chmod u+x auto_create_web.sh
+4. cd nginxubuntu
 
-5. ./auto_create_web.sh yourdomain.com
+5. chmod u+x auto_create_web.sh
 
-6. Just follow the prompts
+6. ./auto_create_web.sh yourdomain.com
 
-7. Edit domain.vhost accordingly. The vhost is updated with the latest security features for SSL if using a cert you must uncomment and make sure paths are correct. The script sets up the standard path $HOME/$USER/ssl to cert/key/trusted_chain.pem but of course you must supply the files. root path/logs path/php-fpm unix socket and sessions paths are setup and work out of the box for you but can be edited for custom paths.
+7. Just follow the prompts
+
+8. Edit domain.vhost accordingly. The vhost is updated with the latest security features for SSL if using a cert you must uncomment and make sure paths are correct. The script sets up the standard path $HOME/$USER/ssl to cert/key/trusted_chain.pem but of course you must supply the files. root path/logs path/php-fpm unix socket and sessions paths are setup and work out of the box for you but can be edited for custom paths.
 
 ## License
 

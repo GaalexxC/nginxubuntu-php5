@@ -88,7 +88,7 @@ Apache License 2.0
 
 ## Development
 
-Nothing further is planned as I and most have moved on to PHP 7 but any serious functionality issues or security issues will be addressed if discovered by me or reported by users.
+This is one of my older scripts created in 2013 and updated last in Feb 2016. Nothing further is planned as I and most have moved on to PHP 7 but any serious functionality issues or security issues will be addressed if discovered by me or reported by users.
 
 ## PHP7 User?
 

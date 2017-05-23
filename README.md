@@ -20,7 +20,8 @@ Created for Ubuntu 12x | 14x Servers but should work on all Debian flavors - Ple
 
 Uses a standard $HOME/$USER/public_html directory setup but can be edited for any type directory structure
 
-<h1>Optional</h1>
+## Optional
+
 - Runs a apt-get update/upgrade if applicable
 
 - Optional install latest mainline Nginx (recommended)
@@ -33,7 +34,8 @@ Uses a standard $HOME/$USER/public_html directory setup but can be edited for an
 
 - Optional Generates 2048 Diffie-Hellman for TLS (recommended)(OpenSSL required)
 
-<h1>Functions</h1>
+## Functions
+
 - Setup/Create Nginx directory structure, sites available/enabled/domain.vhost conf
 
 - Updates cgi.fix_pathinfo=0 in fpm and cli php.ini
@@ -44,9 +46,16 @@ Uses a standard $HOME/$USER/public_html directory setup but can be edited for an
 
 - Sets all proper permissions on relevant directories.
 
-- Creates the following $HOME directory structure
 
+### Creates the following $HOME directory structure
 
+- $HOME
+    - $USER
+        - _sessions
+        - backups
+        - logs
+        - public_html
+        - ssl
 
 
 

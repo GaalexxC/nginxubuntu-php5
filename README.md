@@ -58,4 +58,10 @@ Uses a standard $HOME/$USER/public_html directory setup but can be edited for an
         - ssl
 
 
+## License
 
+Apache License 2.0
+
+## PHP7 User?
+
+Use the PHP7 Ubuntu 16x version [nginxubuntu-php7](https://github.com/GaryCornell/nginxubuntu-php7)

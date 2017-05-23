@@ -88,7 +88,7 @@ NGINX_MAINLINE='http://nginx.org/packages/mainline/ubuntu/'
 
 1. cd /opt  (Any directory you choose is fine)
 
-2. Upload nginxubuntu_v202.tar.gz and extract
+2. Upload nginxubuntu_v202.tar.gz (included in zip) or clone on server and extract
 
 3. cd nginxubuntu
 

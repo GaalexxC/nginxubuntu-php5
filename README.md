@@ -104,6 +104,10 @@ NGINX_MAINLINE='http://nginx.org/packages/mainline/ubuntu/'
 
 Apache License 2.0
 
+## Development
+
+Nothing further is planned as I and most have moved on to PHP 7 but any serious functionality issues or security issues will be addressed if discovered by me or reported by users.
+
 ## PHP7 User?
 
 Use the PHP7 Ubuntu 16x version [nginxubuntu-php7](https://github.com/GaryCornell/nginxubuntu-php7)

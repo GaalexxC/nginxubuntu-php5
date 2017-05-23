@@ -84,17 +84,17 @@ NGINX_MAINLINE='http://nginx.org/packages/mainline/ubuntu/'
 # --------------END 
 ```
 
-## Simple Usage
+## Simple Usage as root
 
 1. cd /opt  (Any directory you choose is fine)
 
-2. wget
+2. Upload nginxubuntu_v202.tar.gz and extract
 
-3. cd src
+3. cd nginxubuntu
 
 4. chmod u+x auto_create_web.sh
 
-5. auto_create_web.sh yourdomain.com
+5. ./auto_create_web.sh yourdomain.com
 
 6. Just follow the prompts
 

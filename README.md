@@ -78,7 +78,7 @@ See [/src/auto_create_web.sh](https://github.com/GaryCornell/nginxubuntu-php5/bl
 
 6. Just follow the prompts
 
-7. Edit domain.vhost accordingly. The vhost is updated with the latest security features for SSL if using a cert you must uncomment and make sure paths are correct. The script sets up the standard path $HOME/$USER/ssl to cert/key/trusted_chain.pem but of course you must supply the files. root/logs/php-fpm. etc are setup for you and can be edited accordingly.
+7. Edit domain.vhost accordingly. The vhost is updated with the latest security features for SSL if using a cert you must uncomment and make sure paths are correct. The script sets up the standard path $HOME/$USER/ssl to cert/key/trusted_chain.pem but of course you must supply the files. root path/logs path/php-fpm unix socket and sessions paths are setup and work out of the box for you but can be edited for custom paths.
 
 ## License
 

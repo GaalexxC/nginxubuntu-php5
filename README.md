@@ -61,28 +61,8 @@ Uses a standard $HOME/$USER/public_html directory setup but can be edited for an
         
         
 ## Editable
-```shell
-# Default sytem values-
-# You may edit these to match your system setup
-# If altering HOME_PARTITION be sure to modify /etc/adduser.conf to match
-HOME_PARTITION='home'
-ROOT_DIRECTORY='public_html'
-WEB_SERVER_GROUP='www-data'
-# PHP5 packages that will be installed or updated. Please add or remove the packages to suit your needs
-PHP5_PACKAGES='php5-fpm php5-mysql php5-curl php5-gd php5-intl php-pear php5-imagick php5-imap php5-mcrypt php5-apcu php5-memcache php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl'
-# Path defaults below, shouldnt need editing
-NGINX_SITES_AVAILABLE='/etc/nginx/sites-available'
-NGINX_SITES_ENABLED='/etc/nginx/sites-enabled'
-PHP_INI_DIR='/etc/php5/fpm/pool.d'
-NGINX_INIT='service nginx reload'
-PHP_FPM_INIT='service php5-fpm restart'
-PHP_FPM_INI='/etc/php5/fpm/php.ini'
-PHP_CLI_INI='/etc/php5/cli/php.ini'
-FIX_PATHINFO='cgi.fix_pathinfo=0'
-APT_SOURCES='/etc/apt/sources.list'
-NGINX_MAINLINE='http://nginx.org/packages/mainline/ubuntu/'
-# --------------END 
-```
+
+See [/src/auto_create_web.sh](https://github.com/GaryCornell/nginxubuntu-php5/blob/master/src/auto_create_web.sh) for editable fields
 
 ## Simple Usage as root
 

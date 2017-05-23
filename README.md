@@ -34,6 +34,8 @@ Uses a standard $HOME/$USER/public_html directory setup but can be edited for an
 
 - Optional Generates 2048 Diffie-Hellman for TLS (recommended)(OpenSSL required)
 
+- Editable options see below
+
 ## Functions
 
 - Setup/Create Nginx directory structure, sites available/enabled/domain.vhost conf
@@ -56,7 +58,45 @@ Uses a standard $HOME/$USER/public_html directory setup but can be edited for an
         - logs
         - public_html
         - ssl
+        
+        
+## Editable
+```shell
+# Default sytem values-
+# You may edit these to match your system setup
+# If altering HOME_PARTITION be sure to modify /etc/adduser.conf to match
+HOME_PARTITION='home'
+ROOT_DIRECTORY='public_html'
+WEB_SERVER_GROUP='www-data'
+# PHP5 packages that will be installed or updated. Please add or remove the packages to suit your needs
+PHP5_PACKAGES='php5-fpm php5-mysql php5-curl php5-gd php5-intl php-pear php5-imagick php5-imap php5-mcrypt php5-apcu php5-memcache php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl'
+# Path defaults below, shouldnt need editing
+NGINX_SITES_AVAILABLE='/etc/nginx/sites-available'
+NGINX_SITES_ENABLED='/etc/nginx/sites-enabled'
+PHP_INI_DIR='/etc/php5/fpm/pool.d'
+NGINX_INIT='service nginx reload'
+PHP_FPM_INIT='service php5-fpm restart'
+PHP_FPM_INI='/etc/php5/fpm/php.ini'
+PHP_CLI_INI='/etc/php5/cli/php.ini'
+FIX_PATHINFO='cgi.fix_pathinfo=0'
+APT_SOURCES='/etc/apt/sources.list'
+NGINX_MAINLINE='http://nginx.org/packages/mainline/ubuntu/'
+# --------------END 
+```
 
+## Simple Usage
+
+1. cd /opt  (Any directory you choose is fine)
+
+2. wget
+
+3. cd src
+
+4. chmod u+x auto_create_web.sh
+
+5. auto_create_web.sh yourdomain.com
+
+6. Just follow the prompts
 
 ## License
 

@@ -68,7 +68,7 @@ See [/src/auto_create_web.sh](https://github.com/GaryCornell/nginxubuntu-php5/bl
 
 1. cd /opt  (Any directory you choose is fine)
 
-2. wget https://github.com/GaryCornell/nginxubuntu-php5/raw/master/nginxubuntu_v202.tar.gz
+2. wget https://github.com/GaryCornell/nginxubuntu-php5/archive/v2.0.2.tar.gz
 
 3. tar -xvzf nginxubuntu_v202.tar.gz
 

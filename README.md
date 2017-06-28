@@ -70,9 +70,9 @@ See [/src/auto_create_web.sh](https://github.com/GaryCornell/nginxubuntu-php5/bl
 
 2. wget https://github.com/GaryCornell/nginxubuntu-php5/archive/v2.0.2.tar.gz
 
-3. tar -xvzf nginxubuntu_v202.tar.gz
+3. tar -xvzf v2.0.2.tar.gz
 
-4. cd nginxubuntu
+4. cd nginxubuntu-php5-2.0.2/src/
 
 5. chmod u+x auto_create_web.sh
 

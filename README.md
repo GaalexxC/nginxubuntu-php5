@@ -1,3 +1,7 @@
+```diff
+- WARNING! NO LONGER MAINTAINED, SCRIPT MAY STILL WORK BUT IT IS SUGGESTED TO USE MY [ASAS](https://github.com/GaryCornell/ASAS) SCRIPT INSTEAD
+```
+
 # nginxubuntu-php5
 
 <pre>
